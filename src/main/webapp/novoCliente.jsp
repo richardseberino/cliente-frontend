@@ -28,7 +28,7 @@ function salvarCliente() {
              }
          }
     };
-    xhttp.open("POST", "http://cliente-bff-cliente.garage-poc-510ad6ebead8e7457a6e62904edfa48f-0000.us-south.containers.appdomain.cloud/bff/cliente", true);
+    xhttp.open("POST", "https://cliente-bff-git-cliente.cp-cluster-510ad6ebead8e7457a6e62904edfa48f-0000.us-south.containers.appdomain.cloud/bff/cliente", true);
     xhttp.setRequestHeader("Content-type", "application/json");
    // xhttp.onreadystatechange = callbackFunction(xhttp);
     xhttp.send('{"nome": "'+ form1.nome.value + 

@@ -83,7 +83,7 @@
 	             }
 	         }
 	    };
-	    xhttp.open("GET", "http://cliente-bff-cliente.garage-poc-510ad6ebead8e7457a6e62904edfa48f-0000.us-south.containers.appdomain.cloud/bff/cliente/pesquisa/" + form1.pesquisa.value, true);
+	    xhttp.open("GET", "https://cliente-bff-git-cliente.cp-cluster-510ad6ebead8e7457a6e62904edfa48f-0000.us-south.containers.appdomain.cloud/bff/cliente/pesquisa/" + form1.pesquisa.value, true);
 	    xhttp.setRequestHeader("Content-type", "application/json");
 	    xhttp.send();
 	}
